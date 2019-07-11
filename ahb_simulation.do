@@ -1,0 +1,2 @@
+vsim  -c +UVM_TIMEOUT=2000000,NO  +UVM_RESOURCE_DB_TRACE +UVM_VERBOSITY=UVM_HIGH +UVM_PHASE_TRACE +UVM_OBJECTION_TRACE +UVM_TESTNAME=ahb_base_test -coverage -debugdb -fsmdebug top -l sim_log  -classdebug  -solvefaildebug -do "log -r /* ;run -all"
+#vsim  -c +UVM_VERBOSITY=UVM_HIGH +UVM_TESTNAME=ahb_base_test -coverage -debugdb -fsmdebug top -l sim_log  -classdebug  -solvefaildebug -do "log -r /* ;run -all"

@@ -1,0 +1,8 @@
+# vsim +UVM_TIMEOUT=2000000,NO +UVM_RESOURCE_DB_TRACE +UVM_VERBOSITY=UVM_HIGH +UVM_PHASE_TRACE +UVM_OBJECTION_TRACE +UVM_TESTNAME=ahb_base_test -coverage -do {log -r /* ;run -all} -fsmdebug -l sim_log -c -debugdb -classdebug -solvefaildebug top 
+# ** Error: (vsim-19) Failed to access library 'work' at "work".
+# 
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./ahb_simulation.do PAUSED at line 1
